@@ -1,0 +1,11 @@
+.header-pagina{
+    background-color: rgba(53, 30, 0, 0.5);
+    grid-area: header;
+}
+.header-pagina header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-pagina header img{
+    width: 100px;
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.home{
+    padding: 80px 0px 0px 0px;
+}
+
+
+
+
+.sobre-nos{
+    margin: auto;
+    width: 1100px;
+    display: grid;
+    grid-template-rows: 725px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 'info imagem';
+}
+
+.sobre-nos h1{
+    font-family: 'Style Script', cursive;
+    font-size: 38pt;
+    text-align: center;
+    color: bisque;
+}
+
+
+
+
+.imagens{
+    background-color: #fabe7055;
+    grid-area: imagem;
+    display: inline-block;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.imagens h1{
+    font-size: 32pt;
+    margin-bottom: 50px;
+    color: linen;
+}
+
+.imagens div{
+    border: none;
+    opacity: 1;
+}
+
+.imagens img{
+    width: 195px;
+    margin: 5px;
+    border: 1px solid #afafaf;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+.sobre-nos-info{
+    background-color: #9c590177;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px white;
+    box-shadow: 5px 5px 10px white;
+
+    padding: 15px;
+    margin: 0px 25px 10px 25px;
+    grid-area: info;
+
+    color: bisque;
+    font-size: 14pt;
+}
