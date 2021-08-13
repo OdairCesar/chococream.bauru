@@ -2,10 +2,34 @@
     background-color: rgba(53, 30, 0, 0.5);
     grid-area: header;
 }
+
 .header-pagina header{
     display: flex;
     justify-content: space-evenly;
 }
+
 .header-pagina header img{
     width: 100px;
+}
+
+.header-pagina header .img-menu{
+    display: none;
+}
+
+@media(max-width: 576px){
+    .header-pagina{ 
+        width: 420px;
+        padding: 10px 0px;
+        position: fixed;
+    }
+    .header-pagina header .logo{
+        display: none;
+    }
+    .header-pagina header .img-menu{
+        width: 65px;
+        display: block;
+    }
+    .header-pagina header{
+        justify-content: space-between;
+    }
 }

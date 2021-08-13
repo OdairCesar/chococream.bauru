@@ -8,9 +8,7 @@ export default function App() {
   return (
     <div className='pagina'>
       <Header />
-      <main className='main'>
-       <Routers />
-      </main>
+      <Routers />
       <Footer />
     </div>
   );

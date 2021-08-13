@@ -1,17 +1,12 @@
 .pagina{
   padding: 0px;
   margin: 0px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100px 805px 50px;
-  grid-template-areas: 
-  'header'
-  'main'
-  'footer';
+  display: flex;
+  flex-direction: column;
 
   
   background-image: url(./assets/imgs/imagem-principal.jpg);
-  background-size: cover;
+  background-size:initial;
   background-repeat: no-repeat;
 }
 .main{
