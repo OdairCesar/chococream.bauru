@@ -41,6 +41,18 @@ h1{
 }
 
 
+.linhas-de-produtos{
+    background-color: white;
+    margin: 150px auto 50px auto; 
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.linhas-de-produtos .tipos-vendidos{
+    display: flex;
+    max-width: 1000px;
+}
+
 .contato{
     background-color: white;
     margin: 150px auto 50px auto; 

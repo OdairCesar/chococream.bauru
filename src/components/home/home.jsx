@@ -7,7 +7,7 @@ import icoFacebook from '../../assets/imgs/facebook.png'
 import icoInstagram from '../../assets/imgs/instagram.png'
 import icoWhatsapp from '../../assets/imgs/whatsapp.png'
 
-export default function Home(props){
+export default function Home(){
     return(
         <main className='home'>
             <div  id='topo' className='sobre-nos'>
@@ -29,9 +29,11 @@ export default function Home(props){
                 <img src={imgSobreNos} alt='imagem ao lado do sobre nos'/>
             </div>
 
-            <div className='Linhas de produtos'>
-                {/* AQUI COLOCAREMOS OS TIPOS DE PRODUTOS QUE A CONFEITARIA VENDE.*/}
-                {/* PARA ISSO PRECISAMOS FAZER O CARD PRIMEIRO */}
+            <div className='linhas-de-produtos'>
+                <h1>Temos</h1>
+                <div className='tipos-vendidos'>
+                    
+                </div>
             </div>
 
             <div id='contato' className='contato'>
