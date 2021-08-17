@@ -43,14 +43,20 @@ h1{
 
 .linhas-de-produtos{
     background-color: white;
-    margin: 150px auto 50px auto; 
+    box-shadow: 1px 1px 15px white;
+
+    margin: 150px auto 0px auto;
+    padding: 15px 0px 15px 10px;
     max-width: 1000px;
+
     display: flex;
     flex-direction: column;
 }
 .linhas-de-produtos .tipos-vendidos{
     display: flex;
     max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contato{
@@ -129,6 +135,14 @@ h1{
 @media(max-width: 576px) {
     .home{
         margin-top: 50px;
+    }
+    .linhas-de-produtos{
+        max-width: 566px;
+        margin: 50px auto 0px auto;
+        padding: 5px;
+    }
+    .tipos-vendidos{
+        max-width: 500px;
     }
     .contato{
         margin: 15px 0px 0px 0px;

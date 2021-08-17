@@ -2,10 +2,16 @@
 import React from 'react'
 import './home.css'
 
+import Card from '../layout/card'
+
 import imgSobreNos from '../../assets/imgs/imagem-sobre-nos.jpg'
-import icoFacebook from '../../assets/imgs/facebook.png'
-import icoInstagram from '../../assets/imgs/instagram.png'
-import icoWhatsapp from '../../assets/imgs/whatsapp.png'
+import icoFacebook from '../../assets/imgs/icones/facebook.png'
+import icoInstagram from '../../assets/imgs/icones/instagram.png'
+import icoWhatsapp from '../../assets/imgs/icones/whatsapp.png'
+import cone from '../../assets/imgs/produtos/cones/cone-de-limao.png'
+import bolo from '../../assets/imgs/produtos/bolos/bolo-de-morango.jpg'
+import trufa from '../../assets/imgs/produtos/trufas/trufa-de-maracuja.jpg'
+import mousse from '../../assets/imgs/produtos/mousses/mousse-de-morango.jpg'
 
 export default function Home(){
     return(
@@ -29,10 +35,34 @@ export default function Home(){
                 <img src={imgSobreNos} alt='imagem ao lado do sobre nos'/>
             </div>
 
-            <div className='linhas-de-produtos'>
+            <div id='tipos' className='linhas-de-produtos'>
                 <h1>Temos</h1>
                 <div className='tipos-vendidos'>
-                    
+                    <Card
+                        link='./' 
+                        imagem={cone} 
+                        titulo='Cone' 
+                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
+                        Condições de palácio tem qualquer terra larga,'
+                        />
+                    <Card
+                        link='./' 
+                        imagem={trufa} 
+                        titulo='Trunfa' 
+                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
+                        Condições de palácio tem qualquer terra larga,'/>
+                    <Card
+                        link='./' 
+                        imagem={bolo} 
+                        titulo='Bolo' 
+                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
+                        Condições de palácio tem qualquer terra larga,'/>
+                    <Card
+                        link='./' 
+                        imagem={mousse} 
+                        titulo='Mousse' 
+                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
+                        Condições de palácio tem qualquer terra larga,'/>
                 </div>
             </div>
 
@@ -44,9 +74,9 @@ export default function Home(){
                         <p><span>Telefone:</span> (14) 99199-7620</p>
                         <p><span>Email:</span> contato@chococream.com.br</p>
                         <div className='redes-socias'>
-                            <img src={icoFacebook} alt='Acessar o Facebook'/>
-                            <img src={icoInstagram} alt='Acessar o Instagram'/>
-                            <img src={icoWhatsapp} alt='Mandar mensagem via whatsaap'/>
+                            <a href='./'><img src={icoFacebook} alt='Acessar o Facebook'/></a>
+                            <a href='./'><img src={icoInstagram} alt='Acessar o Instagram'/></a>
+                            <a href='./'><img src={icoWhatsapp} alt='Mandar mensagem via whatsaap'/></a>
                         </div>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.7419384568943!2d-49.06546957075794!3d-22.31705925843055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67bc45c5936f%3A0xfbd39c27e37b33f!2sR.%20Marcondes%20Salgado%2C%2012-52%20-%20Vila%20Antarctica%2C%20Bauru%20-%20SP%2C%2017013-110!5e0!3m2!1spt-BR!2sbr!4v1628820158614!5m2!1spt-BR!2sbr"/>
