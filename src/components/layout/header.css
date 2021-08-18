@@ -5,6 +5,7 @@
     position: fixed;
     display: flex;
     justify-content: space-evenly;
+    z-index: 1;
 }
 .header-pagina:hover{
     background-color: rgba(53, 30, 0, 1);

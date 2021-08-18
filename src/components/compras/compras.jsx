@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../layout/card'
+import CardCompra from '../layout/cardCompra'
 import trufa from '../../assets/imgs/produtos/trufas/trufa-de-maracuja.jpg'
 import './compras.css'
 
@@ -37,36 +37,32 @@ export default function Compras(props){
                     </ul>
                 </div>
                 <div className='produtos'>
-                    <Card
+                    <CardCompra
                         link='./' 
                         imagem={trufa} 
                         titulo='Trunfa' 
-                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
-                        Condições de palácio tem qualquer terra larga,'/>
-                    <Card
+                        descricao='Serei o que quiser. Mas tenho que querer o que for.'
+                        preco='4,00'/>
+                    <CardCompra
                         link='./' 
                         imagem={trufa} 
                         titulo='Trunfa' 
-                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
-                        Condições de palácio tem qualquer terra larga,'/>
-                    <Card
+                        descricao='Serei o que quiser. Mas tenho que querer o que for.'/>
+                    <CardCompra
                         link='./' 
                         imagem={trufa} 
                         titulo='Trunfa' 
-                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
-                        Condições de palácio tem qualquer terra larga,'/>
-                    <Card
+                        descricao='Serei o que quiser. Mas tenho que querer o que for.'/>
+                    <CardCompra
                         link='./' 
                         imagem={trufa} 
                         titulo='Trunfa' 
-                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
-                        Condições de palácio tem qualquer terra larga,'/>
-                    <Card
+                        descricao='Serei o que quiser. Mas tenho que querer o que for.'/>
+                    <CardCompra
                         link='./' 
                         imagem={trufa} 
                         titulo='Trunfa' 
-                        descricao='Serei o que quiser. Mas tenho que querer o que for. O êxito está em ter êxito, e não em ter condições de êxito. 
-                        Condições de palácio tem qualquer terra larga,'/>
+                        descricao='Serei o que quiser. Mas tenho que querer o que for.'/>
                     
                 </div>
             </div>
