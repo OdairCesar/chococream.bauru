@@ -1,14 +1,11 @@
 .pagina{
   padding: 0px;
   margin: 0px;
+  grid-template-areas: 'header' 'main' 'footer';
   display: flex;
   flex-direction: column;
-
   
   background-image: url(./assets/imgs/imagem-principal.jpg);
-  background-size:initial;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-.main{
-  grid-area: main;
 }

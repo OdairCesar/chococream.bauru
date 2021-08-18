@@ -11,14 +11,9 @@ h1{
 
 .home{
     padding: 0px auto;
-    margin: 0px;
-    max-height: 802px;
-
+    margin: 150px 0px 0px 0px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
-
-    overflow-x: hidden;
     font-family: 'Georama', sans-serif;
 }
 
@@ -39,7 +34,13 @@ h1{
 .sobre-nos img{
     width: 400px;
 }
-
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .linhas-de-produtos{
     background-color: white;

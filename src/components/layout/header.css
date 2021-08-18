@@ -1,18 +1,21 @@
 .header-pagina{
-    background-color: rgba(53, 30, 0, 0.5);
-    grid-area: header;
-}
-
-.header-pagina header{
+    background-color: rgba(53, 30, 0, 0.7);
+    
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
 }
+.header-pagina:hover{
+    background-color: rgba(53, 30, 0, 1);
+    transition: 1s;
+}
 
-.header-pagina header img{
+.header-pagina img{
     width: 100px;
 }
 
-.header-pagina header .img-menu{
+.header-pagina .img-menu{
     display: none;
 }
 
@@ -22,14 +25,14 @@
         padding: 10px 0px;
         position: fixed;
     }
-    .header-pagina header .logo{
+    .header-pagina .logo{
         display: none;
     }
-    .header-pagina header .img-menu{
+    .header-pagina .img-menu{
         width: 65px;
         display: block;
     }
-    .header-pagina header{
+    .header-pagina{
         justify-content: space-between;
     }
 }
