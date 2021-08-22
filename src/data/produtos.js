@@ -6,7 +6,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Chocolate",
       "tipo": "Cone",
-      "imagem": "assets/imgs/produtos/cones/cone-de-chocolate.jpg",
+      "imagem": "0",
       "preco": "4,00"
     },
     {
@@ -15,7 +15,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Morango",
       "tipo": "Cone",
-      "imagem": "assets/imgs/produtos/cones/cone-de-morango.jpg",
+      "imagem": "1",
       "preco": "4,00"
     },
     {
@@ -24,7 +24,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Maracuja",
       "tipo": "Cone",
-      "imagem": "assets/imgs/produtos/cones/cone-de-maracuja.jpg",
+      "imagem": "2",
       "preco": "4,00"
     },
     {
@@ -33,7 +33,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Limão",
       "tipo": "Cone",
-      "imagem": "assets/imgs/produtos/cones/cone-de-limao.png",
+      "imagem": "3",
       "preco": "4,00"
     },
 
@@ -43,7 +43,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Morango",
       "tipo": "Trufa",
-      "imagem": "assets/imgs/produtos/trufas/trufa-de-morango.jpg",
+      "imagem": "4",
       "preco": "5,00"
     },
     {
@@ -52,7 +52,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Maracuja",
       "tipo": "Trufa",
-      "imagem": "assets/imgs/produtos/trufas/trufa-de-maracuja.jpg",
+      "imagem": "5",
       "preco": "5,00"
     },
     {
@@ -61,7 +61,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Nutella",
       "tipo": "Trufa",
-      "imagem": "assets/imgs/produtos/trufas/trufa-de-nutella.jpg",
+      "imagem": "6",
       "preco": "5,00"
     },
     {
@@ -70,7 +70,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Chocolate",
       "tipo": "Trufa",
-      "imagem": "assets/imgs/produtos/trufas/trufa-de-chocolate.jpg",
+      "imagem": "7",
       "preco": "5,00"
     },
 
@@ -80,7 +80,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Chocolate",
       "tipo": "Mousse",
-      "imagem": "assets/imgs/produtos/mousses/mousse-de-chocolate.jpg",
+      "imagem": "8",
       "preco": "9,00"
     },
     {
@@ -89,7 +89,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Limão",
       "tipo": "Mousse",
-      "imagem": "assets/imgs/produtos/mousses/mousse-de-limao.jpg",
+      "imagem": "9",
       "preco": "9,00"
     },
     {
@@ -98,7 +98,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Maracuja",
       "tipo": "Mousse",
-      "imagem": "assets/imgs/produtos/mousses/mousse-de-maracuja.jpg",
+      "imagem": "10",
       "preco": "9,00"
     },
     {
@@ -107,7 +107,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Morango",
       "tipo": "Mousse",
-      "imagem": "assets/imgs/produtos/mousses/mousse-de-morango.jpg",
+      "imagem": "11",
       "preco": "9,00"
     },
 
@@ -117,7 +117,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Cenoura com Brigadeiro",
       "tipo": "Bolo",
-      "imagem": "assets/imgs/produtos/bolos/bolo-de-cenoura-com-brigadeiro.jpg",
+      "imagem": "12",
       "preco": "30,00"
     },
     {
@@ -126,7 +126,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Leite Ninho",
       "tipo": "Bolo",
-      "imagem": "assets/imgs/produtos/bolos/bolo-de-leite-ninho.jpg",
+      "imagem": "13",
       "preco": "30,00"
     },
     {
@@ -135,7 +135,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Chocolate",
       "tipo": "Bolo",
-      "imagem": "assets/imgs/produtos/bolos/bolo-de-chocolate.jpg",
+      "imagem": "14",
       "preco": "30,00"
     },
     {
@@ -144,7 +144,7 @@ export default [
       "descricao": "Cone blabla recheado com blabla e muse de blabla",
       "sabor": "Morango",
       "tipo": "Bolo",
-      "imagem": "assets/imgs/produtos/bolos/bolo-de-morango.jpg",
+      "imagem": "15",
       "preco": "30,00"
     }
   ]
