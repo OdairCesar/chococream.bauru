@@ -9,6 +9,7 @@ export default function CardCompra(props) {
       <img src={imagem} alt={titulo} />
       <a
         href={`https://api.whatsapp.com/send?phone=5514991997620&text=Ola%20gostaria%20de%20pedir%20um%20${tipo}%20de%20${sabor}`}
+        target='blank'
       >
         <h1>{titulo}</h1>
         <p>{descricao}</p>

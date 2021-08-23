@@ -40,3 +40,13 @@ p {
   text-decoration: none;
   color: black;
 }
+@media(max-width: 992px){
+  .cardCompra{
+    width: 290px;
+    margin-right: 10px;
+  }
+  .cardCompra img{
+    width: 290px;
+    height: 220px;
+  }
+}
