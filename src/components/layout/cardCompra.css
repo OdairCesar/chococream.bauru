@@ -1,43 +1,42 @@
-.cardCompra{
-    width: 230px;
-    padding: 0px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    
-    display: flex;
-    flex-direction: column;
+.cardCompra {
+  width: 230px;
+  padding: 0px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 
-    background-color: #d3d3d3;
-    border: 1px solid #b9b9b9;
-}
-.cardCompra:hover{
-    background-color: #e4e4e4;
-}
-.cardCompra img{
-    background-color: #ffffff;
-    width: 230px;
-    height: 180px;
-}
-.cardCompra h1{
-    padding: 0px;
-    margin: 20px 5px 5px 10px;
-    
-    color: #000000;
-    font-size: 15pt;
-    text-align: left;
-    font-family: 'Georama', sans-serif;
-}
-p{
-    margin: 2px 5px 5px 15px;
-}
-.preco{
-    margin: 2px 10px 5px 5px;
-    font-size: 15pt;
-    font-weight: 600;
-    text-align: right;
+  display: flex;
+  flex-direction: column;
 
+  background-color: #d3d3d3;
+  border: 1px solid #b9b9b9;
 }
-.cardCompra a{
-    text-decoration: none;
-    color: black;
+.cardCompra:hover {
+  background-color: #e4e4e4;
+}
+.cardCompra img {
+  background-color: #ffffff;
+  width: 230px;
+  height: 180px;
+}
+.cardCompra h1 {
+  padding: 0px;
+  margin: 20px 5px 5px 10px;
+
+  color: #000000;
+  font-size: 15pt;
+  text-align: left;
+  font-family: "Georama", sans-serif;
+}
+p {
+  margin: 2px 5px 5px 15px;
+}
+.preco {
+  margin: 2px 10px 5px 5px;
+  font-size: 15pt;
+  font-weight: 600;
+  text-align: right;
+}
+.cardCompra a {
+  text-decoration: none;
+  color: black;
 }

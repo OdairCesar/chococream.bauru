@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+  grid-template-areas: 'header' 'main' 'footer';
+  display: flex;
+  flex-direction: column;
+  
+  background-image: url(./assets/imgs/imagem-principal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
